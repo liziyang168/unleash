@@ -159,8 +159,8 @@ importers:
         specifier: ^3.2.10
         version: 3.2.10(pg@8.22.0)(supports-color@10.2.2)
       ky:
-        specifier: ^1.14.3
-        version: 1.14.3
+        specifier: ^2.0.0
+        version: 2.0.2
       lodash:
         specifier: '>=4.18.0'
         version: 4.18.1
@@ -2281,9 +2281,6 @@ packages:
 
   '@types/mustache@4.2.6':
     resolution: {integrity: sha512-t+8/QWTAhOFlrF1IVZqKnMRJi84EgkIK5Kh0p2JV4OLywUvCwJPFxbJAl7XAow7DVIHsF+xW9f1MVzg0L6Szjw==}
-
-  '@types/node@22.20.0':
-    resolution: {integrity: sha512-QWlFW2wf3nTjC13/DqRnBpR4ZO36VJH/JVBkA/vcnmbTBNQIlnObqyqZE1tUR7+Ni23Lda8R1BxMfbXRpCUx5g==}
 
   '@types/node@22.20.1':
     resolution: {integrity: sha512-EANqOCF9QFyra+4pfxUcX9STKJpCLjMbObVzljIJomAWSnuSIEAvyzEU53GaajbXJEgdh0iEcPL+DGvpUd4k1Q==}
@@ -4471,10 +4468,6 @@ packages:
         optional: true
       tedious:
         optional: true
-
-  ky@1.14.3:
-    resolution: {integrity: sha512-9zy9lkjac+TR1c2tG+mkNSVlyOpInnWdSMiue4F+kq8TwJSgv6o8jhLRg8Ho6SnZ9wOYUq/yozts9qQCfk7bIw==}
-    engines: {node: '>=18'}
 
   ky@2.0.2:
     resolution: {integrity: sha512-/GmXpo9F9W+f8n4Ivr2iH+7h7wL7jLbLKWkMlpflcCRb6kGjBfTlASEXaZ9qUgNTn4VgS0P2pwxxzQ4EM6Ulgg==}
@@ -8560,10 +8553,6 @@ snapshots:
 
   '@types/mustache@4.2.6': {}
 
-  '@types/node@22.20.0':
-    dependencies:
-      undici-types: 6.21.0
-
   '@types/node@22.20.1':
     dependencies:
       undici-types: 6.21.0
@@ -8629,7 +8618,7 @@ snapshots:
 
   '@types/set-cookie-parser@2.4.10':
     dependencies:
-      '@types/node': 22.20.0
+      '@types/node': 22.20.1
 
   '@types/sinonjs__fake-timers@8.1.1': {}
 
@@ -10968,8 +10957,6 @@ snapshots:
       pg: 8.22.0
     transitivePeerDependencies:
       - supports-color
-
-  ky@1.14.3: {}
 
   ky@2.0.2: {}
 
